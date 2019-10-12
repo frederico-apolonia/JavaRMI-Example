@@ -3,7 +3,7 @@ import java.rmi.registry.Registry;
 
 public class ASClient {
 
-    private static final int ALBUMSTORE_PORT = 10000;
+    private static final int ALBUMSTORE_PORT = 1099;
 
     public static void main(String[] args) throws Exception {
         String host = "127.0.0.1"; // default host

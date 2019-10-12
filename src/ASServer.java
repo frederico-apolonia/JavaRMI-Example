@@ -3,7 +3,7 @@ import java.rmi.registry.Registry;
 
 public class ASServer {
 
-    private static final int ALBUMSTORE_PORT = 10000;
+    private static final int ALBUMSTORE_PORT = 1099;
 
     public static void main(String[] args) throws Exception {
         Albumstore albumstore = new AlbumstoreImpl();
